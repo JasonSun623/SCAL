@@ -57,10 +57,7 @@ double cal_var(double x1,double x2)
 #define hypothesis_anchorNUM 12
 #define anchor_num 6
 #define PI 3.1415926
-KalmanFilter kf[4] = {KalmanFilter(stateSize, measSize, controlSize),
-                KalmanFilter(stateSize, measSize, controlSize),
-                KalmanFilter(stateSize, measSize, controlSize),
-                KalmanFilter(stateSize, measSize, controlSize)};
+
 Eigen::MatrixXd A(stateSize, stateSize);
 Eigen::MatrixXd B(1,1);
 Eigen::MatrixXd H(measSize, stateSize);
