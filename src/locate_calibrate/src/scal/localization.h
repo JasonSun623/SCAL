@@ -79,7 +79,7 @@
 #include "lib.h"
 #include "robot.h"
 #include <nlink_parser/LinktrackNodeframe2rostime.h>
-#include "myKalman.h"
+
 using namespace std;
 
 typedef g2o::BlockSolver_6_3 SE3BlockSolver;
