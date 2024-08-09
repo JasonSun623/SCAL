@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+    <param name ="/use_sim_time" value="ture"/>
+    <rosparam file="~/locate_calibrate/src/awesome-uwb-driver-master/cfg/4uwb_params.yaml" command="load" />
+    <node pkg="locate_calibrate" type="localization_and_calibrate" name="localization_and_calibrate" output="screen">
+        <rosparam command="delete" param="topic" />
+        <param name="log/filename_prefix" value="$(find locate_calibrate)/bag/real_time" />
+        <rosparam file="$(find locate_calibrate)/cfg/uwb_imu.yaml" command="load" />
+        <!--<rosparam file="$(find uwb_driver)/cfg/4uwb_params.yaml" command="load" />-->
+    </node>
+</launch>

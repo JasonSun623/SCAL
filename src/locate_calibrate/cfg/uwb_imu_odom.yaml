@@ -1,0 +1,24 @@
+# parameters for g2o optimizer
+optimizer:
+  maximum_iteration: 20
+  verbose: false
+  minimum_optimize_error: 2000
+
+# parameters for topic subscription
+topic:
+  range: /uwb_endorange_info
+  imu: /imu
+  pose: /odom
+
+publish_flag:
+  tf: true
+  # publish estimation when the following topics are received.
+  # topics available in {range, pose, twist, imu}. false in default
+  range: true
+  imu: true
+  pose: true
+
+# fused pose topic frame
+frame:
+  target: /uwb_localization
+  source: /world
