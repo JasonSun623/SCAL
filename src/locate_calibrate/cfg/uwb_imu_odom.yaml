@@ -6,7 +6,7 @@ optimizer:
 
 # parameters for topic subscription
 topic:
-  range: /uwb_endorange_info
+  range: /nlink_linktrack_nodeframe2
   imu: /imu
   pose: /odom
 
