@@ -38,12 +38,15 @@ Clone the code and compile it as follows
 
 Duration:    57.9s
 
-We adopt a layout design consisting of four anchors and one tag to evaluate SCAL method.
+We adopt a layout design consisting of four anchors and one tag to evaluate SCAL method in the laboratory.
 
 #6_anchor.bag
 
 Duration:    22:25s (1345s)
 
+We adopt the layout design of six anchors and one tag to evaluate  SCAL method  in the parking lot.
+
+Parking lot
 Topics:      
 *  UWB raw measurements
   
