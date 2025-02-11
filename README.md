@@ -70,3 +70,18 @@ Run
     roslauch localization localization_calibrate.launch
     roslauch localization localization_bag_play.launch
   
+# Citation
+If our work is helpful to you, please consider citing us by using the following BibTeX entry:
+```
+@ARTICLE{10704747,
+  author={Sun, Jian and Sun, Wei and Zheng, Jin and Fang, Xu and Liu, Jian and Mian, Ajmal},
+  journal={IEEE Internet of Things Journal}, 
+  title={UWB–IMU–Odometer Fusion for Simultaneous Calibration and Localization}, 
+  year={2025},
+  volume={12},
+  number={1},
+  pages={950-963},
+  keywords={Calibration;Accuracy;Location awareness;Position measurement;Nonlinear optics;Sun;Odometers;Wireless sensor networks;Manuals;Internet of Things;Calibration;factor graph;localization;non line-of-sight (NLOS);ultrawideband (UWB)/inertial measurement unit (IMU)/odometer},
+  doi={10.1109/JIOT.2024.3473022}}
+
+}
